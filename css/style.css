@@ -1,0 +1,505 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.barraNav {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F3F3F2;
+    font-family: 'Alata', sans-serif;
+    height: 60px;
+}
+
+#logoPagina {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: #F3F3F2;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.barraNav li a {
+    color: #BBBBBB;
+}
+
+.barraNav li a :hover {
+    color: #454444;
+}
+
+#mainAvances {
+    overflow-x: hidden;
+}
+
+#divLogo {
+    padding-left: 1%;
+    display: inline;
+    float: left;
+    background-color: #F3F3F2;
+}
+
+.imagenGrupal {
+    padding-left: 12%;
+    padding-top: 10%;
+}
+
+.titulosIndex {
+    padding-left: 35%;
+    padding-top: 10%;
+    font-family: 'Alata', sans-serif;
+}
+
+div h2 {
+    padding-top: 2%;
+    color: #935120;
+}
+
+div h3 {
+    padding-top: 2%;
+}
+
+nav li {
+    padding: 2%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul img {
+    padding-right: 50%;
+}
+
+
+hr {
+    width: 15%;
+    margin-top: 40px;
+}
+
+#logoSitio {
+    width: 241px;
+    height: 97px;
+    margin-left: 50px;
+    margin-top: 3px;
+}
+
+.tituloPropuesta {
+    padding-left: 10%;
+    padding-top: 4%;
+    font-family: 'Alata', sans-serif;
+}
+
+.tituloAvances {
+    font-family: 'Alata', sans-serif;
+    padding-left: 5%;
+    padding-top: 3%;
+}
+
+.roles {
+    font-family: 'Alata', sans-serif;
+    padding-left: 5%;
+}
+
+#rol {
+    padding-bottom: 3%;
+}
+
+.subtitulo {
+    padding-left: 10%;
+    padding-top: 4%;
+    font-family: 'Alata', sans-serif;
+    color: #935120;
+}
+
+.subtitulo2 {
+    font-family: 'Alata', sans-serif;
+    padding-left: 5%;
+    padding-top: 3%;
+    color: #935120;
+}
+
+.fuentes {
+    padding-left: 5%;
+    padding-top: 0.64px;
+    font-family: 'Alata', sans-serif;
+    color: #935120;
+}
+
+.propuesta {
+    padding-left: 10%;
+    font-family: 'Alata', sans-serif;
+}
+
+.ul-propuesta {
+    padding-left: 12%;
+    padding-top: 10px;
+    font-family: 'Alata', sans-serif;
+}
+
+iframe {
+    margin-left: 11%;
+    padding-top: 10px;
+}
+
+footer {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    background-color: #935120;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+}
+
+.titulo {
+    padding-left: 10%;
+    padding-top: 4%;
+    font-family: 'Alata', sans-serif;
+}
+
+.tituloArbol {
+    color: #000;
+    text-align: center;
+    font-family: Alata;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.textoArbol {
+    color: #D9C7B3;
+    text-align: center;
+    font-family: Alata;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.numeroEquipo {
+    padding-left: 10%;
+    color: #935120;
+    font-family: 'Alata', sans-serif;
+}
+
+.boton {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 5%;
+    background-color: #d1b181;
+    border-color: #935120;
+    border-width: 3px;
+    border-style: solid;
+    transition: all 400ms ease-out;
+}
+
+.boton a:hover {
+    color: #603312;
+    transition: all 400ms ease-out;
+}
+
+.container-card {
+    width: 120%;
+    display: flex;
+    max-width: 1100px;
+    margin: auto;
+    padding-top: 5%;
+    font-family: 'Alata', sans-serif;
+}
+
+.card {
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    transition: all 400ms ease-out;
+    cursor: default;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+
+.card img {
+    width: 100%;
+    height: 210px;
+}
+
+.card .contenido-card {
+    padding: 15px;
+    text-align: center;
+}
+
+.card .contenido-card h3 {
+    margin-bottom: 15px;
+    color: #242424;
+}
+
+.card .contenido-card p {
+    line-height: 1.8;
+    color: #242424;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.card .contenido-card a {
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #935120;
+    border: 1px solid #935120;
+    border-radius: 4px;
+    transition: all 400ms ease;
+    margin-bottom: 5px;
+}
+
+.card .contenido-card a:hover {
+    background: #935120;
+    color: #fff;
+}
+
+.flex-container {
+    flex-wrap: wrap;
+}
+
+#cajaPaleta {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 750px;
+    margin-left: 20%;
+}
+
+.claseColores {
+    display: flex;
+    align-items: end;
+    width: 100px;
+    height: 135px;
+    color: #000;
+    font-family: Alata;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 1px solid #000;
+}
+
+#color1 {
+    background-color: #FFFFFF;
+    text-align: center;
+    align-items: center;
+    padding-left: 8px;
+}
+
+#color2 {
+    background-color: #e8d9c9;
+    text-align: center;
+    align-items: center;
+    padding-left: 5px;
+}
+
+#color3 {
+    background-color: #D9C7B3;
+    text-align: center;
+    align-items: center;
+    padding-left: 5px;
+}
+
+#color4 {
+    background-color: #FF6C15;
+    text-align: center;
+    align-items: center;
+    padding-left: 8px;
+}
+
+#color5 {
+    background-color: #603312;
+    text-align: center;
+    align-items: center;
+    padding-left: 5px;
+}
+
+#color6 {
+    background-color: #707070;
+    text-align: center;
+    align-items: center;
+    padding-left: 5px;
+}
+
+#arbolSitio {
+    width: 886px;
+    height: 519px;
+    margin-left: 260px;
+    margin-right: 277px;
+}
+
+#cajaImagenes {
+    height: 400px;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 768px) {
+    #logoUade {
+        margin-left: 30%;
+        position: sticky;
+    }
+
+    .barraNav {
+        display: wrap;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .barraNav li {
+        padding-right: 13%;
+    }
+
+    nav {
+        background-color: #242424;
+    }
+
+    .imagenGrupal {
+        margin-left: 25%;
+    }
+
+    .titulosIndex {
+        padding: unset;
+        margin-left: 25%;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    h2 {
+        padding-left: 80px;
+    }
+
+    .titulo {
+        padding-right: 51%;
+    }
+
+    .container-card {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 10%;
+    }
+
+    .card {
+        width: 60%;
+    }
+
+    main {
+        overflow-x: hidden;
+    }
+
+    .tituloPropuesta {
+        padding-right: 8%;
+    }
+
+    .propuesta {
+        padding-bottom: 5%;
+    }
+
+    .subtitulo {
+        padding-left: 12%;
+    }
+
+    .subtitulo2 {
+        text-align: center;
+    }
+
+    .tituloAvances {
+        font-family: 'Alata', sans-serif;
+        text-align: center;
+    }
+
+    #cajaImagenes {
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    #cajaPaleta {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: unset;
+        padding-right: 200px;
+        padding-left: 35px;
+    }
+
+    #arbolSitio {
+        width: 320px;
+        height: 187px;
+        margin-left: 50px;
+    }
+
+    .tituloArbol {
+        padding-left: unset;
+    }
+
+    #logoSitio {
+        margin-left: unset;
+        margin-left: 23%;
+    }
+
+    .boton {
+        margin-left: 10%;
+    }
+
+    hr {
+        width: 50%;
+    }
+
+    footer {
+        font-size: 12px;
+        position: static;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1024px) {
+    main {
+        overflow-x: hidden;
+    }
+
+    .container-card {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-left: 10%;
+
+    }
+
+    .card {
+        width: 50%;
+    }
+
+    footer {
+        font-size: 15px;
+        position: fixed;
+    }
+
+    #logoUade {
+        position: absolute;
+    }
+}
