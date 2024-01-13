@@ -34,11 +34,172 @@ a:hover {
     height: 840px;
   }
 
-img {
+/* img { */
     /* padding-left: 150px;
     padding-top: 60px; */
-    width: 585px;
-    height: 555px;
+
+    /* width: 585px;
+    height: 555px; */
+/* } */
+
+#imgMonogramaByN {
+    width: 1191px;
+    height: 843px;
+    margin-top: 5%;
+    margin-left: 20%;
+}
+
+#monograma2 {
+    width: 1191px;
+    height: 843px;
+    margin-left: 20%;
+}
+
+#monograma3 {
+    width: 1191px;
+    height: 843px;
+    margin-left: 20%;
+}
+
+#monograma4 {
+    width: 1191px;
+    height: 843px;
+    margin-left: 20%;
+}
+
+#monograma5 {
+    width: 1191px;
+    height: 843px;
+    margin-left: 20%;
+}
+
+#monograma6 {
+    width: 1191px;
+    height: 843px;
+    margin-left: 20%;
+}
+
+#nicto1 {
+    width: 1191px;
+    height: 843px;
+    margin-top: 5%;
+    margin-left: 20%;
+}
+
+#nicto2 {
+    width: 1191px;
+    height: 843px;
+    margin-left: 20%;
+}
+
+#cali1 {
+    width: 1191px;
+    height: 843px;
+    margin-left: 20%;
+}
+
+#cali2 {
+    width: 1191px;
+    height: 843px;
+    margin-left: 20%;
+}
+
+#cali3 {
+    width: 1191px;
+    height: 843px;
+    margin-left: 20%;
+}
+
+#cali4 {
+    width: 1191px;
+    height: 843px;
+    margin-left: 20%;
+}
+
+#cali5 {
+    width: 1191px;
+    height: 843px;
+    margin-left: 20%;
+}
+
+#cali6 {
+    width: 1191px;
+    height: 843px;
+    margin-left: 20%;
+}
+
+#cali7 {
+    width: 1191px;
+    height: 843px;
+    margin-left: 20%;
+}
+
+#pixel1 {
+    width: 1191px;
+    height: 843px;
+    margin-top: 5%;
+    margin-left: 20%;
+}
+
+#pixel2 {
+    width: 1191px;
+    height: 843px;
+    margin-left: 20%;
+}
+
+#pixel3 {
+    width: 1191px;
+    height: 843px;
+    margin-left: 20%;
+}
+
+#pixel4 {
+    width: 1191px;
+    height: 843px;
+    margin-left: 20%;
+}
+
+#pixel5 {
+    width: 1191px;
+    height: 843px;
+    margin-left: 20%;
+}
+
+#pixel6 {
+    width: 1191px;
+    height: 843px;
+    margin-left: 20%;
+}
+
+#intervencion1 {
+    width: 1191px;
+    height: 843px;
+    margin-left: 20%;
+}
+
+#estado1 {
+    width: 1191px;
+    height: 843px;
+    margin-top: 5%;
+    margin-left: 20%;
+}
+
+#estado2 {
+    width: 1191px;
+    height: 843px;
+    margin-left: 20%;
+}
+
+#estado3 {
+    width: 1191px;
+    height: 843px;
+    margin-left: 20%;
+}
+
+#poster1 {
+    width: 1191px;
+    margin-top: 5%;
+    margin-left: 20%;
 }
 
 #contenedor #div1 {
@@ -65,9 +226,9 @@ img {
     font-family: 'Cantarell';
 }
   
-  #contenedor > div {
+#contenedor > div {
     width: 50%;
-  }
+}
 
 #logoPagina {
     width: 50px;
@@ -146,11 +307,135 @@ nav ul img {
 }
 
 .subtitulo {
-    padding-left: 33%;
+    padding-left: 34%;
     padding-top: 4%;
     font-size: 18px;
     font-family: 'Work Sans', sans-serif;
     color: #BBBBBB;
+}
+
+.subtituloNicto {
+    padding-left: 37%;
+    padding-top: 4%;
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    color: #BBBBBB;
+}
+
+.subtituloCali {
+    padding-left: 36%;
+    padding-top: 4%;
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    color: #BBBBBB;
+}
+
+.subtituloInter {
+    padding-left: 40%;
+    padding-top: 4%;
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    color: #BBBBBB;
+}
+
+.subtituloIdentidad {
+    padding-left: 36%;
+    padding-top: 4%;
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    color: #BBBBBB;
+}
+
+.subtituloRelato {
+    padding-left: 21%;
+    padding-top: 4%;
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    color: #BBBBBB;
+}
+
+.subtituloPoster {
+    padding-left: 25%;
+    padding-top: 4%;
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    color: #BBBBBB;
+}
+
+.subtituloScromi {
+    padding-left: 28%;
+    padding-top: 4%;
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    color: #BBBBBB;
+}
+
+.subtituloMono {
+    padding-left: 37%;
+    padding-top: 4%;
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    color: #BBBBBB;
+}
+
+.botonScromi {
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #BBBBBB;
+    border: 1px solid #BBBBBB;
+    font-family: 'Kanit', sans-serif;
+    border-radius: 4px;
+    transition: all 400ms ease;
+    margin-bottom: 5%;
+    margin-left: 50%;
+}
+
+.botonScromi:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+
+iframe {
+    margin-left: 24%;
+    margin-top: 4%;
+}
+
+.titulo {
+    padding-left: 45%;
+    padding-top: 4%;
+    font-family: 'Alata', sans-serif;
+}
+
+.tituloCali {
+    padding-left: 47%;
+    padding-top: 4%;
+    font-family: 'Alata', sans-serif;
+}
+
+.tituloInter {
+    padding-left: 45%;
+    padding-top: 4%;
+    font-family: 'Alata', sans-serif;
+}
+
+.tituloRelato {
+    padding-left: 46%;
+    padding-top: 4%;
+    font-family: 'Alata', sans-serif;
+}
+
+.tituloIdentidad {
+    padding-left: 35%;
+    padding-top: 4%;
+    font-family: 'Alata', sans-serif;
+}
+
+.tituloScromi {
+    padding-left: 47%;
+    padding-top: 4%;
+    font-family: 'Alata', sans-serif;
 }
 
 .subtitulo2 {
@@ -178,25 +463,14 @@ nav ul img {
     font-family: 'Alata', sans-serif;
 }
 
-iframe {
-    margin-left: 11%;
-    padding-top: 10px;
-}
-
 footer {
     bottom: 0;
     left: 0;
-    position: fixed;
+    /* position: fixed; */
     background-color: #F3F3F2;
     color: #000;
     width: 100%;
     text-align: center;
-    font-family: 'Alata', sans-serif;
-}
-
-.titulo {
-    padding-left: 10%;
-    padding-top: 4%;
     font-family: 'Alata', sans-serif;
 }
 
