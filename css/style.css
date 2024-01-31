@@ -623,7 +623,19 @@ footer {
     .barraNav {
         display: wrap;
         flex-wrap: wrap;
-        flex-direction: column;
+        /* flex-direction: column; */
+    }
+
+    #titulo1 {
+        padding-left: 32%;
+    }
+
+    #titulo2 {
+        padding-left: 32%;
+    }
+
+    #div2 p {
+        padding-left: 22%;
     }
 
     .barraNav li {
@@ -632,6 +644,17 @@ footer {
 
     nav {
         background-color: #242424;
+    }
+
+    #contenedor > div {
+        width: 100%;
+    }
+
+    #logoInicio {
+        margin-left: 78px;
+        margin-top: 80px;
+        height: 280.7px;
+        width: 280px;
     }
 
     .imagenGrupal {
@@ -730,6 +753,13 @@ footer {
         font-size: 12px;
         position: static;
     }
+}
+
+@media (max-width: 768px) {
+    /* .barraNav {
+        display: wrap;
+        flex-wrap: wrap;
+    } */
 }
 
 @media (min-width: 1024px) and (max-width: 1024px) {
